@@ -242,7 +242,7 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
             //*cmdSteer = constrain(-1.0, 1.0, kp_d * D_err + 11 / c.r + 2 * _yaw);
 
             //print some useful info on the terminal
-            printf("公路");
+            // printf("公路");
             printf("D_err : %f \n", D_err);
             printf("cmdSteer %f \n", *cmdSteer);
         }
@@ -339,7 +339,7 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
             //*cmdSteer = constrain(-1.0, 1.0, kp_d * D_err + 11 / c.r + 2 * _yaw);
 
             //print some useful info on the terminal
-            printf("土路");
+            // printf("土路");
             printf("D_err : %f \n", D_err);
             printf("cmdSteer %f \n", *cmdSteer);
         }
