@@ -207,12 +207,10 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
                     *cmdBrake = 0;
                 }
             }
-            else if (curSpeedErr < 0) //overspeed
+            else if (curSpeedErr < 0)		//overspeed
             {
-                flagbrake = !flagbrake;
-                *cmdBrake = (!flagbrake) * constrain(0.0, 1, -kp_s * curSpeedErr / 5 - offset / 3);
+                *cmdBrake = constrain(0.0, 0.8, -kp_s * curSpeedErr / 5 - offset / 3);
                 *cmdAcc = 0;
-                offset = 0;
             }
 
             updateGear(cmdGear);
@@ -239,11 +237,12 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
             else
                 midLineOffset = -sqrt(_midline[0][0] * _midline[0][0] + _midline[0][1] * _midline[0][1]);
 
-            stanley = 0.1 * _yaw + atan(50 * midLineOffset / _speed);
+            stanley = 0.1 * _yaw + atan(40 * midLineOffset / _speed);
             *cmdSteer = constrain(-1.0, 1.0, stanley + kp_d * D_err + ki_d * D_errSum + kd_d * D_errDiff + 3 / c.r);
             //*cmdSteer = constrain(-1.0, 1.0, kp_d * D_err + 11 / c.r + 2 * _yaw);
 
             //print some useful info on the terminal
+            printf("公路");
             printf("D_err : %f \n", D_err);
             printf("cmdSteer %f \n", *cmdSteer);
         }
@@ -334,12 +333,13 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
             else
                 midLineOffset = -sqrt(_midline[0][0] * _midline[0][0] + _midline[0][1] * _midline[0][1]);
 
-            stanley = 0.1 * _yaw + atan(50* midLineOffset / _speed);
+            stanley = 0.1 * _yaw + atan(40* midLineOffset / _speed);
             *cmdSteer = constrain(-1.0, 1.0, stanley + kp_d * D_err + ki_d * D_errSum + kd_d * D_errDiff + 3 / c.r);
             // *cmdSteer = constrain(-1.0, 1.0, kp_d * D_err + ki_d * D_errSum + kd_d * D_errDiff + 3 / c.r + 0.1 * _yaw);
             //*cmdSteer = constrain(-1.0, 1.0, kp_d * D_err + 11 / c.r + 2 * _yaw);
 
             //print some useful info on the terminal
+            printf("土路");
             printf("D_err : %f \n", D_err);
             printf("cmdSteer %f \n", *cmdSteer);
         }

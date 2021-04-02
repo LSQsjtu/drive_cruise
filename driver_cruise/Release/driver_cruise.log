@@ -7,15 +7,15 @@ D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(182,30): w
 D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(194,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(200,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(206,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(213,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(243,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(255,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(257,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(279,30): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(291,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(297,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(303,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(309,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(338,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(212,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(241,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(254,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(256,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(278,30): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(290,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(296,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(302,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(308,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(337,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
     正在创建库 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.lib 和对象 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.exp
   driver_cruise.vcxproj -> D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.dll
