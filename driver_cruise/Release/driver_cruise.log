@@ -1,21 +1,17 @@
 ﻿  driver_cruise.cpp
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(132,20): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(134,19): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(165,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(167,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(182,30): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(194,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(200,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(206,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(212,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(241,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(254,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(256,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(278,30): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(290,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(296,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(302,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(308,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(337,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(165,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(192,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(199,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(204,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(210,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(216,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(226,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(253,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(260,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(265,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(271,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(277,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(302,8): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(331,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
     正在创建库 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.lib 和对象 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.exp
   driver_cruise.vcxproj -> D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.dll
