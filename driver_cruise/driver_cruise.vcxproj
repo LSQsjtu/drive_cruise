@@ -89,12 +89,14 @@
   <ItemGroup>
     <ClInclude Include="class_Visualization.h" />
     <ClInclude Include="Common_OpenCV.h" />
+    <ClInclude Include="cvui.h" />
     <ClInclude Include="driver_cruise.h" />
     <ClInclude Include="osspec.h" />
     <ClInclude Include="tgf.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="class_Visualization.cpp" />
+    <ClCompile Include="Console.cpp" />
     <ClCompile Include="driver_cruise.cpp" />
   </ItemGroup>
   <ItemGroup>

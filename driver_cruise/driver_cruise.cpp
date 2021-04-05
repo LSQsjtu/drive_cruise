@@ -19,6 +19,10 @@ static void userDriverGetParam(float midline[200][2], float yaw, float yawrate, 
 static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, int *cmdGear);
 static int InitFuncPt(int index, void *pt);
 
+extern void CVUIShow(double*, double*, double*, double*, double*, double*);
+extern void CVUIShow_2(double*, int*);
+extern void CVUIShow_3(double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*);
+
 // Module Entry Point
 extern "C" int driver_cruise(tModInfo *modInfo)
 {
@@ -73,6 +77,7 @@ double kp_d; //kp for direction						     //
 double ki_d; //ki for direction					    	 //
 double kd_d; //kd for direction						     //
 double kb_d;
+double k = 109.0;
 // Direction Control Variables						         //
 double D_err;		  //direction error					             //
 double D_errDiff = 0; //direction difference(Differentiation) //
@@ -144,7 +149,7 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
 	}
 	else
 	{
-		//根据加速到30km/h的时间不同区分公路与土路
+		//锟斤拷锟捷硷拷锟劫碉拷30km/h锟斤拷时锟戒不同锟斤拷锟街癸拷路锟斤拷锟斤拷路
 		if (_speed < 30)
 		{
 			*cmdAcc = 1;
@@ -220,6 +225,8 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
 			updateGear(cmdGear);
 
 			GetSteer(cmdSteer);
+
+			// CVUIShow(&kp_s, &ki_s, &kd_s, &kp_d, &ki_d, &kd_d);
 		}
 		else
 		{
@@ -326,9 +333,11 @@ void GetSteer(float *cmdSteer)
 		midLineOffset = sqrt(_midline[0][0] * _midline[0][0] + _midline[0][1] * _midline[0][1]);
 	else
 		midLineOffset = -sqrt(_midline[0][0] * _midline[0][0] + _midline[0][1] * _midline[0][1]);
-
-	stanley = _yaw + atan(19.5 * midLineOffset / _speed);
+	
+	stanley = _yaw + atan(k * midLineOffset / _speed);
 	*cmdSteer = constrain(-1.0, 1.0, stanley + kp_d * D_err + ki_d * D_errSum + kd_d * D_errDiff);
+
+	CVUIShow_2(&k, &delta);
 }
 
 void PIDParamSetter()
