@@ -1,17 +1,18 @@
-﻿  driver_cruise.cpp
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(170,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(197,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(204,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(209,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(215,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(221,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(233,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(260,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(267,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(272,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(278,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(284,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(309,8): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(338,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-    正在创建库 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.lib 和对象 D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.exp
-  driver_cruise.vcxproj -> D:\BaiduNetdiskDownload\driver_cruise\Release\driver_cruise.dll
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  driver_cruise.cpp
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(169,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(196,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(203,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(208,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(214,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(220,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(232,26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(262,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(269,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(274,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(280,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(286,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(312,8): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\BaiduNetdiskDownload\driver_cruise\driver_cruise\driver_cruise.cpp(343,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+    正在创建库 ..\..\..\上海交通大学\download_sjtu\CyberTORCS_2021Spring_V1.0_Publish\cybercruise\driver_cruise.lib 和对象 ..\..\..\上海交通大学\download_sjtu\CyberTORCS_2021Spring_V1.0_Publish\cybercruise\driver_cruise.exp
+  driver_cruise.vcxproj -> D:\上海交通大学\download_sjtu\CyberTORCS_2021Spring_V1.0_Publish\cybercruise\driver_cruise.dll
