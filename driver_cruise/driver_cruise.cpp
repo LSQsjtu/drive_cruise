@@ -19,9 +19,9 @@ static void userDriverGetParam(float midline[200][2], float yaw, float yawrate, 
 static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, int *cmdGear);
 static int InitFuncPt(int index, void *pt);
 
-extern void CVUIShow(double *, double *, double *, double *, double *, double *);
-extern void CVUIShow_2(double *, int *);
-extern void CVUIShow_3(double *, double *, double *, double *, double *, double *, double *, double *, double *, double *, double *);
+// extern void CVUIShow(double *, double *, double *, double *, double *, double *);
+// extern void CVUIShow_2(double *, int *);
+// extern void CVUIShow_3(double *, double *, double *, double *, double *, double *, double *, double *, double *, double *, double *);
 
 // Module Entry Point
 extern "C" int driver_cruise(tModInfo *modInfo)
@@ -83,7 +83,7 @@ double D_errDiff = 0; //direction difference(Differentiation) //
 double D_errSum = 0;  //sum of direction error(Integration)    //
 double midLineOffset = 0;
 double stanley = 0;
-double k = 109.0;
+double k = 187.3;
 // Speed Control Variables								     //
 circle c;
 circle cs;
@@ -166,17 +166,17 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
 
 		if (isDirt)
 		{
-			startPoint = constrain(0, 178, _speed * _speed * _speed * 0.000018); //+ _speed * 0.445
+			startPoint = constrain(0, 188, _speed * _speed * _speed * 0.000018); //+ _speed * 0.445
 			c = getR(_midline[startPoint][0], _midline[startPoint][1], _midline[startPoint + delta][0], _midline[startPoint + delta][1], _midline[startPoint + 2 * delta][0], _midline[startPoint + 2 * delta][1]);
 			cs = getR(_midline[0][0], _midline[0][1], _midline[1][0], _midline[1][1], _midline[2][0], _midline[2][1]);
-			if (c.r <= 60)
-			{
-				expectedSpeed = constrain(30, 180, 13 * sqrt(c.r));
-			}
-			else
-			{
-				expectedSpeed = constrain(120, 240, c.r * 1.34);
-			}
+			// if (c.r <= 60)
+			// {
+				expectedSpeed = constrain(40, 100, 13 * sqrt(c.r));
+			// }
+			// else
+			// {
+			// 	expectedSpeed = constrain(120, 240, c.r * 1.34);
+			// }
 			// else if (abs(*cmdSteer) < 0.05)
 			// {
 			// 	expectedSpeed = constrain(180, 350, c.r * 1.8);
@@ -233,15 +233,15 @@ static void userDriverSetParam(float *cmdAcc, float *cmdBrake, float *cmdSteer, 
 
 			c = getR(_midline[startPoint][0], _midline[startPoint][1], _midline[startPoint + delta][0], _midline[startPoint + delta][1], _midline[startPoint + 2 * delta][0], _midline[startPoint + 2 * delta][1]);
 			cs = getR(_midline[0][0], _midline[0][1], _midline[1][0], _midline[1][1], _midline[2][0], _midline[2][1]);
-			if (c.r <= 60)
-			{
-				expectedSpeed = constrain(30, 180, 13 * sqrt(c.r));
-			}
-			else
-			{
-				//printf("radius:%f \n", c.r);
-				expectedSpeed = constrain(130, 240, c.r * 1.5);
-			}
+			// if (c.r <= 60)
+			// {
+			expectedSpeed = constrain(30, 180, 13 * sqrt(c.r));
+			// }
+			// else
+			// {
+			// 	//printf("radius:%f \n", c.r);
+			// 	expectedSpeed = constrain(130, 240, c.r * 1.5);
+			// }
 			// else if (abs(*cmdSteer) < 0.05)
 			// {
 			// 	//printf("Steer:%f \n",*cmdSteer);
